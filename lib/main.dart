@@ -19,7 +19,7 @@ class WeatherHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Weather Info App")),
-      body: Center(child: Text("Welcome to the Weather Info App")),
+      body: Center(child: Text("Welcome to the Weather Information App")),
     );
   }
 }
