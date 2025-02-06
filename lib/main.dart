@@ -36,7 +36,8 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
 
     setState(() {
       city = _cityController.text;
-      temperature = "${15 + random.nextInt(16)}°C";
+      temperature =
+          "${15 + random.nextInt(16)}°C"; //picks a random number for the temperature
       condition = conditions[random.nextInt(conditions.length)];
     });
   }
